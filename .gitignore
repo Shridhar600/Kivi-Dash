@@ -1,0 +1,23 @@
+.build/
+.swiftpm/
+build/
+dist/
+*.xcodeproj
+.DS_Store
+.vscode/
+
+# Local-only working notes: design specs, implementation plans, backlog.
+# They carry development details and personal usage figures that are not
+# part of the published project.
+docs/
+
+# Never commit captured user data, or any copy of Kivi's store.
+# `*.store` is the extension this app actually reads and the only one that
+# contains transcript text — leaving it out would let a contributor's real
+# dictation history land in a commit.
+*.sqlite
+*.sqlite3
+*.db
+*.store
+*-wal
+*-shm
